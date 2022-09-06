@@ -9,6 +9,7 @@ import (
 	"io/ioutil"
 	"os"
 	"strings"
+	"strconv"
 
 	"golang.org/x/text/encoding/unicode"
 )
@@ -42,7 +43,7 @@ func main() {
 	}
 	payload = append(payload, MagicHdr...)
 
-	fmt.Println(len(bof_payload))
+	fmt.Println("BofLength:"+strconv.Itoa(len(bof_payload)))
 	bs := make([]byte, 4)
 	binary.LittleEndian.PutUint32(bs, uint32(len(bof_payload)))
 
