@@ -25,3 +25,8 @@ Usage:
 生成的bin文件即为PIC shellcode
 
 ```
+
+### Reference
+[@FalconForceTeam's BOF2shellcode repository](https://github.com/FalconForceTeam/BOF2shellcode)
+
+Note that the loader code in this repository is heavily based on [@trustedsec's COFFLoader](https://github.com/trustedsec/COFFLoader) and [@thefLink's C-To-Shellcode-Examples repository](https://github.com/thefLink/C-To-Shellcode-Examples/).
