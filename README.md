@@ -18,9 +18,9 @@ bofloader 核心shellcode生成
 
 Usage:
 ```
-.\bofgopic.exe -bof .\dir.x64.o -args .\dir.json
+.\bofgopic.exe -bof .\boftest\dir.x64.o -args .\boftest\dir.json
 
-.\bofgopic.exe -bof .\whoami.x64.o
+.\bofgopic.exe -bof .\boftest\whoami.x64.o
 
 生成的bin文件即为PIC shellcode
 
