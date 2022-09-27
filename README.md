@@ -1,6 +1,10 @@
 # Bof2PIC
 BOF/COFF obj file to PIC(shellcode). by golang
 
+在原项目的基础上将生成器从py改成了go
+
+加入了bof的传参支持(sliver格式)
+
 ```
 \boftest\
 测试用的bof文件和传参json文件，json文件格式与sliver一致
@@ -26,7 +30,7 @@ Usage:
 
 ```
 
-todo: NtApi
+
 
 ### Reference
 [@FalconForceTeam's BOF2shellcode repository](https://github.com/FalconForceTeam/BOF2shellcode)
