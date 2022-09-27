@@ -26,6 +26,8 @@ Usage:
 
 ```
 
+todo: NtApi
+
 ### Reference
 [@FalconForceTeam's BOF2shellcode repository](https://github.com/FalconForceTeam/BOF2shellcode)
 
